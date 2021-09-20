@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>상민이의 서재 : 로그인 </title>
+  <title>Chatting Room</title>
  
 </head>
 
@@ -25,15 +25,15 @@
   </div>
 
   <header class="welcome-header">
-      <h1 class="welcome-header__title">상민이의 서재에 어서오세요</h1>
-      <p class="welcome-header__text">상민이의 서재는 양상민 고객님이 읽으셨거나 읽고 싶은</br>
-         온라인, 오프라인 만화책, 소설 및 다양한 분야의 도서들을 설명하는 웹사이트입니다.</p>
+      <h1 class="welcome-header__title">Welcome to Chatting Room</h1>
+      <p class="welcome-header__text">
+        This chat room was created for fun communication with friends.</p>
   </header>
-  <form id="login-form">
-      <input type="text" placeholder="아이디" />
-      <input type="password" placeholder="비밀번호" />
-      <input type="submit" value="로그인"/>
-      <a href="#">Find Sangmin's library Account or Password</a>
+  <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="아이디" />
+      <input name="password" type="password" placeholder="비밀번호" />
+      <input  type="submit" value="로그인"/>
+      <a href="#">Find your Account or Password</a>
   </form>
 
   <script src="https://kit.fontawesome.com/6478f529f2.js" crossorgin="annymous"></script>
